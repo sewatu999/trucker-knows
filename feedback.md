@@ -23,12 +23,13 @@ Criteria: How does the project stack up to the requirements for this project? Is
 
 -   Successfully deployed, and project renders in browser.
 -   Content, style, and functionality are separated in distinct HTML, CSS and JS files.
+- Good attempt at using Object-Oriented Programming for the questions. 
 
 ### Areas for Growth:
 
-- [x] The project is deployed to GitHub Pages or a custom domain
-- [ ] The application renders in the browser and runs without errors
-- [ ] The repo has a README that adequately documents the project
+- The `checkAnswer` function is not correctly accessing the `correct` property of the questions. 
+- Consider using DOM manipulation to give answer feedback. 
+- The quiz should track the user's score and provide final feedback at the end. 
 
 ## Creativity and Interface - Progressing
 
@@ -69,4 +70,8 @@ Criteria: Is there adequate documentation? Is the repository well organized and 
 
 -   There is a brief summary of the game in the README.md as well as wire-frame images in the repo, but there should be more information in the README of how the project was planned and created.
 
+## Hard Requirements - Incomplete: 
 
+- [x] The project is deployed to GitHub Pages or a custom domain
+- [ ] The application renders in the browser and runs without errors
+- [ ] The repo has a README that adequately documents the project
