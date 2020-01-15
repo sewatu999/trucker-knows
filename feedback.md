@@ -13,7 +13,7 @@ Criteria: Is the code well formatted? Are variable and function names semantic a
 
 ### Areas for Growth:
 
--   There is commented out, non-functional code in the `script.js` file. Next time remove any non-functional code before turning in a project.
+-   There is commented out, non-functional code in the `script.js` file. Remove any non-functional code before turning in a project.
 
 ## Technical Requirements - Incomplete
 
@@ -23,13 +23,13 @@ Criteria: How does the project stack up to the requirements for this project? Is
 
 -   Successfully deployed, and project renders in browser.
 -   Content, style, and functionality are separated in distinct HTML, CSS and JS files.
-- Good attempt at using Object-Oriented Programming for the questions. 
+-   Good attempt at using Object-Oriented Programming for the questions. 
 
 ### Areas for Growth:
 
-- The `checkAnswer` function is not correctly accessing the `correct` property of the questions. 
-- Consider using DOM manipulation to give answer feedback. 
-- The quiz should track the user's score and provide final feedback at the end. 
+-   The `checkAnswer` function is not correctly accessing the `correct` property of the questions. 
+-   Consider using DOM manipulation to give answer feedback. 
+-   The quiz should track the user's score and provide final feedback at the end. 
 
 ## Creativity and Interface - Progressing
 
