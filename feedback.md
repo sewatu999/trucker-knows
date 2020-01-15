@@ -53,3 +53,9 @@ Criteria: Application has functional and creative interface and a readme with re
 ### Areas for Growth:
 
 -   There is a brief summary of the game in the README.md as well as wire-frame images in the repo, but nothing else is covered in the documentation of how the project was planned and created.
+
+## Hard Requirements
+
+- [x] The project is deployed to GitHub Pages or a custom domain
+- [ ] The application renders in the browser and runs without errors
+- [ ] The repo has a README that adequately documents the project
