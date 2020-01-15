@@ -38,7 +38,7 @@ Criteria: Is the application easy to navigate? Does it work well in every major 
 ### Strengths:
 
 -   Design is simple and easy to read, with large fonts and clean layout.
--   Straightforward color scheme that allows user to focus on the questions.
+-   Straightforward color scheme allows user to focus on the questions.
 
 ### Areas for Growth
 
