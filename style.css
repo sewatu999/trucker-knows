@@ -23,6 +23,7 @@ h1 {
   width: 500px;
   height: 100px;
   position: relative;
+  background-color: grey;
 }
 
 .choices {
@@ -37,6 +38,10 @@ h1 {
   right: 0;
   top: 100px;
   padding: 10px;
+}
+
+.counter {
+  bottom: 200px;
 }
 
 #scoreContainer img {
