@@ -24,6 +24,7 @@ h1 {
   height: 100px;
   position: relative;
   background-color: grey;
+  background-size: auto;
 }
 
 .choices {
@@ -44,8 +45,10 @@ h1 {
   bottom: 200px;
 }
 
-#scoreContainer img {
+.scoreContainer img {
   position: absolute;
   top: 100px;
   left: 325px;
+  width: 100%;
+  background: grey;
 }
