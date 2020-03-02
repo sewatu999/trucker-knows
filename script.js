@@ -140,7 +140,7 @@ function provideQuestion() {
     choiceC.innerHTML = 'C.' + q.choiceC;
   }
   {
-    // correct.innerHTML = 'correctAnswer' + q.correctAnswer;
+    correct.innerHTML = 'correctAnswer' + q.correctAnswer;
   }
   quiz.style.display = 'block';
   currentQuestionIndex = currentQuestionIndex + 1;
