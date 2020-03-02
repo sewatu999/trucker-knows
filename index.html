@@ -10,21 +10,32 @@
 
   <body>
     <h1>Trucker Knows</h1>
+    <h2>Questions</h2>
 
     <div id="quiz">
       <div id="question">
-        <p>Question</p>
+        <p style="font-size: 80px, 128512"></p>
       </div>
+
+      <!-- <div id="question"><p>Question</p></div> -->
 
       <div id="choice"></div>
       <div class="choice" id="A" value="checkAnswer(A)"></div>
       <div class="choice" id="B" value="checkAnswer(B)"></div>
       <div class="choice" id="C" value="checkAnswer(C)"></div>
-      <div class="choice" id="correct" value="correctAnswer" (correct)></div>
+      <div class="choice" id="correct" value="correctChoice"></div>
+      <div class="lastQuestion" id="lastQuestionIndex[9]" value="score"></div>
       <button id="nextQuestion">Next</button>
+      <div id="timer">
+        <!-- <div id="counter">6</div> -->
+        <div id="bTimeGauge"></div>
+        <div id="timeGauge"></div>
+      </div>
     </div>
+    <div id="progress"><div class="prog"></div></div>
     <div id="currentQuestion"></div>
     <div id="scoreContainer" ; style="display : none"></div>
+    <div id="scoreRender"></div>
 
     <script src="script.js"></script>
   </body>
