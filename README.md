@@ -12,4 +12,18 @@ Trucker trivia is a **fun** way of _challenging_ the knowledge of users, at the 
 
 ## Installing
 
-- Brainstorm the development and need
+- Go to github
+
+- Locate Trucker Knows
+
+- Download Trucker Knows
+
+- Open app
+
+## Instructions
+
+- Read question choose your correct answer, the app will respond with correct or incorrect. Click the next button to go to the next question
+
+## More
+
+- code and wireframe can be accessed above on this repository

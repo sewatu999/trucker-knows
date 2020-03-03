@@ -137,23 +137,25 @@ let lastQuestion = question.length - 1;
 let currentQuestionIndex = 0;
 
 function provideQuestion() {
-	let q = questions[currentQuestionIndex];
 
-	question.innerHTML = '<p>' + q.question + '<p>';
-	{
-		choiceA.innerHTML = 'A.' + q.choiceA;
-	}
-	{
-		choiceB.innerHTML = 'B.' + q.choiceB;
-	}
-	{
-		choiceC.innerHTML = 'C.' + q.choiceC;
-	}
-	{
-		// correct.innerHTML = 'correctAnswer' + q.correctAnswer;
-	}
-	quiz.style.display = 'block';
-	currentQuestionIndex = currentQuestionIndex + 1;
+  let q = questions[currentQuestionIndex];
+
+  question.innerHTML = '<p>' + q.question + '<p>';
+  {
+    choiceA.innerHTML = 'A.' + q.choiceA;
+  }
+  {
+    choiceB.innerHTML = 'B.' + q.choiceB;
+  }
+  {
+    choiceC.innerHTML = 'C.' + q.choiceC;
+  }
+  {
+    correct.innerHTML = 'correctAnswer' + q.correctAnswer;
+  }
+  quiz.style.display = 'block';
+  currentQuestionIndex = currentQuestionIndex + 1;
+
 }
 function checkAnswer(evt) {
 	//match the events target id to the correct key
