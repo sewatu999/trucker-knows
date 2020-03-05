@@ -146,6 +146,9 @@ function provideQuestion() {
   }
   quiz.style.display = 'block';
   currentQuestionIndex = currentQuestionIndex + 1;
+  if (lastQuestion == currentQuestionIndex) {
+    currentQuestionIndex.getElementById('score');
+  }
 }
 function checkAnswer(evt) {
   //match the events target id to the correct key
@@ -162,7 +165,7 @@ function checkAnswer(evt) {
 function scoreRender() {
   console.log('you finished the game');
   scoreContainer.style.display = 'block';
-  let scorePercent = Math.round((100 * score) / question.lastIndex[9]);
+  let scorePercent = Math.round((100 * score) / question.lastQuestionIndex);
   let img =
     scorePercent >= 70
       ? '/images/kiMKgBreT (1).jpg'
