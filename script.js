@@ -163,16 +163,15 @@ function checkAnswer(evt) {
 }
 
 function scoreRender() {
-  console.log('you finished the game');
   scoreContainer.style.display = 'block';
   let scorePercent = Math.round((100 * score) / question.lastQuestionIndex);
-  let img =
-    scorePercent >= 70
-      ? '/images/kiMKgBreT (1).jpg'
-      : scorePercent < 70
-      ? '/images/zTX4akXyc.jpg'
-      : (scoreContainer.innerHTML =
-          "<img src= '+ img +'><p>'+scorePercent+'%</p>");
+  let img = scorePercent >= 70;
+  console.log('you finished the game')
+    ? '/images/kiMKgBreT(1).jpg'
+    : scorePercent < 70
+    ? '/images/zTX4akXyc.jpg'
+    : (scoreContainer.innerHTML =
+        "<img src= '+ img +'><p>'+scorePercent+'%</p>");
 }
 
 //then create an image element
