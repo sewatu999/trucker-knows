@@ -23,7 +23,6 @@ h1 {
   width: 500px;
   height: 100px;
   position: relative;
-  background-color: grey;
   background-size: auto;
 }
 
@@ -50,5 +49,9 @@ h1 {
   top: 100px;
   left: 325px;
   width: 100%;
+  margin-bottom: 250px;
+}
+
+.body {
   background: grey;
 }
