@@ -33,3 +33,7 @@ Trucker trivia is a **fun** way of _challenging_ the knowledge of users on what 
 ## More
 
 - code and wireframe can be accessed above on this repository
+
+## Contributors
+
+- Contributors to Trucker Knows are Abdul James with assistance and guidance from Instructor Esin Saribudak
